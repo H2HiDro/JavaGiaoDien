@@ -3,15 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/JpnSanPham.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/FrmMenu.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/FrmDoiMK.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/JpnHoaDon.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/JpnMatHangCon.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/FrmDangNhap.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/QuanLyCafe.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/JpnBan.java</file>
-            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/quanlycafe/FmThemMon.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/FrmDoiMK.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/QuanLyCafe.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/JpnThongKe.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/FrmMenu.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/JpnSanPham.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/JpnHoaDon.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/JpnBan.java</file>
+            <file>file:/D:/hoctap/N3/HK1/HSKForJAVA/project/App/quanLyCafe/src/gui/FrmDangNhap.java</file>
         </group>
     </open-files>
 </project-private>
