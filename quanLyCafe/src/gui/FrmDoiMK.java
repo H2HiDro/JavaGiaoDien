@@ -29,11 +29,8 @@ public class FrmDoiMK extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         btnHuy = new javax.swing.JButton();
         btnXacNhan = new javax.swing.JButton();
-        tfMKCu = new javax.swing.JTextField();
         jSeparator1 = new javax.swing.JSeparator();
-        tfMKMoi = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
-        tfMKXacNhan = new javax.swing.JTextField();
         jSeparator3 = new javax.swing.JSeparator();
         jlbTitle = new javax.swing.JLabel();
         jSeparator5 = new javax.swing.JSeparator();
@@ -41,6 +38,9 @@ public class FrmDoiMK extends javax.swing.JFrame {
         jlbMKCu = new javax.swing.JLabel();
         jlbMKMoi = new javax.swing.JLabel();
         jlbMKXacNhan = new javax.swing.JLabel();
+        tfMKCu = new javax.swing.JPasswordField();
+        tfMKMoi = new javax.swing.JPasswordField();
+        tfMKXacNhan = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -60,21 +60,9 @@ public class FrmDoiMK extends javax.swing.JFrame {
         btnXacNhan.setText("Xác Nhận");
         btnXacNhan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        tfMKCu.setBackground(new java.awt.Color(230, 219, 209));
-        tfMKCu.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        tfMKCu.setBorder(null);
-
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
 
-        tfMKMoi.setBackground(new java.awt.Color(230, 219, 209));
-        tfMKMoi.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        tfMKMoi.setBorder(null);
-
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
-
-        tfMKXacNhan.setBackground(new java.awt.Color(230, 219, 209));
-        tfMKXacNhan.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        tfMKXacNhan.setBorder(null);
 
         jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
 
@@ -103,6 +91,18 @@ public class FrmDoiMK extends javax.swing.JFrame {
         jlbMKXacNhan.setFont(new java.awt.Font("Times New Roman", 2, 20)); // NOI18N
         jlbMKXacNhan.setText("Xác nhận mật khẩu:");
 
+        tfMKCu.setBackground(new java.awt.Color(230, 219, 209));
+        tfMKCu.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        tfMKCu.setBorder(null);
+
+        tfMKMoi.setBackground(new java.awt.Color(230, 219, 209));
+        tfMKMoi.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        tfMKMoi.setBorder(null);
+
+        tfMKXacNhan.setBackground(new java.awt.Color(230, 219, 209));
+        tfMKXacNhan.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        tfMKXacNhan.setBorder(null);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -123,16 +123,17 @@ public class FrmDoiMK extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jlbMKCu)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(tfMKCu, javax.swing.GroupLayout.PREFERRED_SIZE, 502, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(tfMKCu, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jlbMKMoi)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(tfMKMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 502, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(tfMKMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jlbMKXacNhan)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(tfMKXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 502, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(tfMKXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(2, 2, 2)))
                 .addGap(36, 36, 36))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -150,30 +151,30 @@ public class FrmDoiMK extends javax.swing.JFrame {
                     .addComponent(btnClose))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jlbMKCu, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tfMKCu, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jlbMKCu, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(tfMKCu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jlbMKMoi)
-                    .addComponent(tfMKMoi, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tfMKMoi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnHuy, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jlbMKXacNhan)
-                        .addComponent(tfMKXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jlbMKXacNhan)
+                    .addComponent(tfMKXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnHuy, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnXacNhan, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -206,7 +207,7 @@ public class FrmDoiMK extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -243,8 +244,8 @@ public class FrmDoiMK extends javax.swing.JFrame {
     private javax.swing.JLabel jlbMKMoi;
     private javax.swing.JLabel jlbMKXacNhan;
     private javax.swing.JLabel jlbTitle;
-    private javax.swing.JTextField tfMKCu;
-    private javax.swing.JTextField tfMKMoi;
-    private javax.swing.JTextField tfMKXacNhan;
+    private javax.swing.JPasswordField tfMKCu;
+    private javax.swing.JPasswordField tfMKMoi;
+    private javax.swing.JPasswordField tfMKXacNhan;
     // End of variables declaration//GEN-END:variables
 }
